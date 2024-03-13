@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  background-color: #3332;
+  border: 0.5px solid #3333336b;
+  height: 50vh;
+  width: 100%;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  border: 0.5px solid rgba(51, 51, 51, 0.324);
+}
+.city1,
+.city2,
+.city3 {
+  font-weight: 700;
+  cursor: pointer;
+  padding: 1rem;
+  color: #333;
+  transition: all 0.3s ease;
+}
+.city1:hover {
+  background-color: aqua;
+  color: #fff;
+}
+.city2:hover {
+  background-color: crimson;
+  color: #fff;
+}
+.city3:hover {
+  background-color: deepskyblue;
+  color: #fff;
+}
+.hidden {
+  display: none;
+}
+.tab1-button {
+  background-color: aqua;
+}
+.tab2-button {
+  background-color: crimson;
+}
+.tab3-button {
+  background-color: deepskyblue;
+}
